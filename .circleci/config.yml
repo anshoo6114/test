@@ -18,5 +18,9 @@ jobs:
       - run:
           name: Print the size of disk
           command: df
+          
+      - run:
+          name: Network details
+          command: ifconfig
          
       
