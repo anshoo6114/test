@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: linux
+      - image: debian:scratch
 
     steps:
       - checkout
@@ -19,8 +19,5 @@ jobs:
           name: Print the size of disk
           command: df
           
-      - run:
-          name: Network details
-          command: ifconfig
-         
+     
       
