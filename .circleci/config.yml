@@ -21,6 +21,9 @@ jobs:
       - run:
           name: Print the files
           command: ls
+      - run:
+          name: Print the current login
+          command: w
           
          
       
