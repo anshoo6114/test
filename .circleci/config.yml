@@ -22,5 +22,8 @@ jobs:
           name: Print the files
           command: ls
           
+      - run:
+          name: Install apache server
+          command: yum install -y httpd
      
       
