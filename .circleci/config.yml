@@ -18,6 +18,9 @@ jobs:
       - run:
           name: Print the size of disk
           command: df
+      - run:
+          name: Print the files
+          command: ls
           
      
       
