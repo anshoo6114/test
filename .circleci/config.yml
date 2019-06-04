@@ -19,6 +19,4 @@ jobs:
           name: Print the size of disk
           command: df
          
-      - run:
-          name: Print the current state of process
-          command: ps
+      
