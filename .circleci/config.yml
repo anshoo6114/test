@@ -20,7 +20,7 @@ jobs:
           command: df
       - run:
           name: Print the files
-          command: ll
+          command: ls
       
           
          
